@@ -19,16 +19,16 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/colors/purple.css">
   <link rel="stylesheet" href="assets/css/custom.css">
+	
+	<!-- Google tag (gtag.js) -->
+  	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MV5H7VH8WV"></script>
+  	<script>
+    	window.dataLayer = window.dataLayer || [];
+    	function gtag(){dataLayer.push(arguments);}
+    	gtag('js', new Date());
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MV5H7VH8WV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-MV5H7VH8WV');
-  </script> 
+    	gtag('config', 'G-MV5H7VH8WV');
+  	</script> 
 </head>
 
 <body>

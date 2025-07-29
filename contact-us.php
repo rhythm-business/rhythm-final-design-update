@@ -76,7 +76,7 @@
       </div>
       <div class="col-lg-6">
         <div class="contat-box card shadow-lg js-scroll slide-left scrolled">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117901.50835859953!2d88.24133848071439!3d22.56330970422938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a0279d554f75991%3A0x56c8980612ef4a77!2sAvani%20Riverside%20Mall%2C%2032%2C%20Jagat%20Banerjee%20Ghat%20Rd%2C%20Choura%20Bustee%2C%20Shibpur%2C%20Howrah%2C%20West%20Bengal%20711102!3m2!1d22.563330699999998!2d88.3237401!5e0!3m2!1sen!2sin!4v1750832090576!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.421575211374!2d88.3237401!3d22.563330699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279d554f75991%3A0x56c8980612ef4a77!2sRhythm%20%E2%80%93%20Sadani%20Watch%20World!5e0!3m2!1sen!2sin!4v1751350504449!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <h3 class="heading mt-3">Contact Information</h3>
           <div class="item">
             <div class="icon">

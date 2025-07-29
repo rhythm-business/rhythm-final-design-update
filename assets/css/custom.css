@@ -34,7 +34,7 @@ html {scroll-behavior: smooth;}
 .brands .title:after {position: absolute;content: "";left: calc(50% - 35px);bottom: -15px;width: 65px;height: 4px;background: #dbab64;}
 .brands p.desc {font-size: 15px;font-weight: 400;font-family: 'Inter';line-height: 28px;text-align: center;color: #4b5563;margin-bottom:0;}
 .brands .brand-wraper {animation: scroll 40s linear infinite;display: flex;gap:20px;width: calc(250px * 8);}
-.brands .brand-slider {height: 100px;margin: auto;overflow: hidden;position: relative;width: 1320px;display:flex;gap:30px;}
+.brands .brand-slider {height: 100px;margin: auto;overflow: hidden;position: relative;width: 100%;display:flex;gap:30px;}
 .brands .brand-slider .brand-wraper .brandBx {height: 100px;width: 250px;text-align: center;display: flex;align-items:center;justify-content:center;background:#ffffff;border-radius:10px;border: 1px solid #cccccc;}
 .brands .brand-slider .brand-wraper .brandBx img {height: 90px;width:auto;}
 .brands .brand-box {padding: 20px;background: #ffffff;border-radius: 10px;box-shadow: 0 1px 2px 0 rgb(0, 0, 0, .05);display: flex;flex-direction: column;align-items: center;gap: 30px;text-align: center;margin-bottom: 30px;}
@@ -61,8 +61,8 @@ html {scroll-behavior: smooth;}
 .service .service-box:hover {background: #ffffff40;}
 .service .service-box .inner {padding: 20px;}
 .service .service-box .inner figcaption {min-height: 150px;}
-.service .service-box .inner h4 {font-size: 20px;font-family: 'Playfair Display';color: #ffffff;min-height:60px;margin-bottom: 10px;}
-.service .service-box .inner p {font-size: 14px;line-height: 24px;color: #eeeeee;margin-bottom: 10px;min-height:120px;}
+.service .service-box .inner h4 {font-size: 20px;font-family: 'Playfair Display';color: #ffffff;margin-bottom: 10px;min-height: 60px;}
+.service .service-box .inner p {font-size: 14px;line-height: 24px;color: #eeeeee;margin-bottom: 10px;min-height:145px;}
 .service .service-box .inner a {display: flex;align-items: center;gap: 10px;font-size: 14px;color: #f2d6a2;cursor: pointer;}
 .service .service-box .inner a:hover {gap:20px;color: #ffffff;}
 .service .btn-box a {background: #dbab64;padding: 9px 20px;font-size: 14px;font-weight: 500;color: #0a2342;border: 1px solid rgba(10,35,66,.20);border-radius: 8px;}
@@ -106,8 +106,8 @@ html {scroll-behavior: smooth;}
 .choose-us .choose-box:hover {background: rgba(255,255,255,.25);}
 .choose-us .choose-box .icon {background: #dbab6433;width: 60px;height: 60px;border-radius: 100%;display: flex;align-items: center;justify-content: center;margin-bottom: 20px;}
 .choose-us .choose-box .icon svg {color: #f2d6a2;}
-.choose-us .choose-box h4 {font-size: 20px;line-height: 30px;font-family: 'Playfair Display';font-weight: 600;color: #ffffff;min-height:60px;margin-bottom: 15px;}
-.choose-us .choose-box p {font-family: 'Inter';font-size: 14px;font-weight: 400;line-height: 24px;margin: 0;min-height: 265px;color: #eeeeee;}
+.choose-us .choose-box h4 {font-size: 20px;line-height: 30px;font-family: 'Playfair Display';font-weight: 600;color: #ffffff;margin-bottom: 15px;min-height:60px;}
+.choose-us .choose-box p {font-family: 'Inter';font-size: 14px;font-weight: 400;line-height: 24px;margin: 0;color: #eeeeee;min-height: 265px;}
 .choose-us .customers-box {background: #233955;border: 1px solid #40546c;padding: 50px;border-radius: 10px;margin-top: 60px;}
 .choose-us .customers-box .left-box {margin-right: 35px;}
 .choose-us .customers-box .left-box h3 {font-size: 26px;font-family: 'Playfair Display';font-weight: 500;line-height: 1;margin-bottom: 15px;color: #ffffff;}
@@ -171,7 +171,7 @@ html {scroll-behavior: smooth;}
 .footer .up-btn .nav.social a i {font-size:14px;}
 .footer .up-btn a {font-size: 14px;color: #ffffff99;font-weight: 300;margin: 0;}
 
-.floatdBx {bottom: 50px;left: 15px;z-index: 9;opacity: 1;position: fixed;display:flex;flex-direction:column;gap:20px;}
+.floatdBx {bottom: 50px;left: 15px;z-index: 99;opacity: 1;position: fixed;display:flex;flex-direction:column;gap:20px;}
 .floatdBx a {display: block;width: 45px;height: 45px;text-align: center;line-height: 45px;background: #ffffff;box-shadow: 0 0 4px #cccccc;border-radius: 100%;}
 .floatdBx a i.bi-whatsapp {font-size: 24px;color: #4ec360;}
 .floatdBx a i.bi-telephone {font-size: 24px;color: #001970;}
@@ -293,19 +293,26 @@ html {scroll-behavior: smooth;}
   }
 }
 /********* animation css style work end *********/
+@media screen and (min-device-width: 1366px) and (max-device-width: 1920px) {
+    .service .service-box .inner h4 {min-height: auto;}
+	.service .service-box .inner p {min-height: 125px;}
+	.choose-us .choose-box p {min-height: 200px;}
+}
 
 @media (max-width: 767px){
 	.btn-close:before {font-family: bootstrap-icons!important;content: "\f62a";}
 	.navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link{padding: 10px 15px !important;}
 	.hero {padding: 60px 0;}
 	.hero .explore-box {display: none;}
-	.hero .hero-content .title {font-size: 42px;line-height: 48px;}
+	.hero .hero-content .subtitle {font-size: 20px;line-height: 30px;margin-bottom: 20px;}
+	.hero .hero-content .title {font-size: 30px;line-height: 42px;}
 	.hero .hero-content p.desc {font-size: 16px;}
 	.hero .hero-content .d-flex {flex-direction:column;}
 	.hero .hero-content .btn-custom {display:flex;width:100%;margin-bottom: 10px;}
 	.hero .hero-content .btn-custom2 {display:flex;width:100%;}
 	.hero .hero-image .clock {margin: 50px auto 0;width:320px;height:320px;}
 	.cta .cta-area {padding: 20px;flex-direction: column;gap: 30px;align-items: flex-start;}
+	.cta {background: transparent;}
 	.cta .cta-area .left-box h3 {font-size: 24px;}
 	.cta .cta-area .left-box p {font-size: 14px;}
 	.service .service-box {margin-bottom: 30px;}
@@ -331,4 +338,8 @@ html {scroll-behavior: smooth;}
 	.choose-us .customers-box .right-box .rating .stars li i {font-size: 14px;}
 	.choose-us .customers-box .right-box .rating span {font-size: 14px;padding: 3px 10px;}
 	.wrapper.page-title .text-box {padding: 50px 20px;}
+	.choose-us .choose-box h4 {min-height: auto;}
+	.choose-us .choose-box p {min-height: auto;}
+	.service .service-box .inner h4 {min-height: auto;}
+	.service .service-box .inner p {min-height: auto;}
 }

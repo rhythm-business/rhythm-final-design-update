@@ -48,86 +48,62 @@
           </div>
         </div>
 		<div class="row">
-        	<div class="col-md-12 col-lg-12 js-scroll fade-in-bottom scrolled">
-				<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
-    			<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" rel="stylesheet">
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-				<style>
-					.brand-box {padding: 20px;background: #ffffff;border-radius: 10px;box-shadow: 0 1px 2px 0 rgb(0, 0, 0, .05);display: flex;flex-direction: column;align-items: center;gap: 30px;text-align: center;margin-bottom: 30px;width: 100%;height: 100px;}
-					.brand-box img {width: 100%;height: 100%;object-fit:content;}
-					.slider_active .owl-dots {display: flex;align-items: center;justify-content: center;}
-					.slider_active .owl-dots .owl-dot {display: inline-block;width: .5rem;height: .5rem;margin: 0 .3rem;padding: 0;background: #aab0bc;opacity: .5;border-radius: 100%;border: 3px solid transparent;transform: scale(.6);}
-					.slider_active .owl-dots .owl-dot.active {transform: scale(1);background: 0 0;border-color: #aab0bc;}
-				</style>
-        		<div class="owl-carousel slider_active">
-    				<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/3.webp" alt="" />
-            			</div>
-          			</div>
-          			<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/4.webp" alt="" />
-            			</div>
-          			</div>
-					<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/8.webp" alt="" />
-            			</div>
-          			</div>
-					<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/5.webp" alt="" />
-            			</div>
-          			</div>
-          			<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/10.webp" alt="" />
-            			</div>
-          			</div>
-					<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/11.webp" alt="" />
-            			</div>
-          			</div>
-					<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/12.webp" alt="" />
-            			</div>
-          			</div>
-					<div class="item">
-            			<div class="brand-box js-scroll fade-in-bottom scrolled">
-              				<img src="./assets/img/brand/13.webp" alt="" />
-            			</div>
-          			</div>
-        		</div>
-    			<script>
-					function company_carouselInit() {
-						$('.owl-carousel.slider_active').owlCarousel({
-							loop: true,
-							margin: 30,
-							stagePadding: 0,
-							smartSpeed:2500,
-							autoplay: true,
-							autoplayTimeout: 2500,
-							autoplayHoverPause: false,
-							responsive: {
-								0: {
-									items: 2
-								},
-								768: {
-									items: 2,
-								},
-								992: {
-									items: 6
-								}
-							}
-						});
-					}
-					company_carouselInit();
-    			</script>
-			</div>
+          <div class="col-md-12 col-lg-12 js-scroll fade-in-bottom scrolled">
+        <div class="brand-slider">
+          <div class="brand-wraper">
+            <div class="brandBx">
+              <img src="./assets/img/brand/3.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/4.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/8.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/5.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/10.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/11.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/12.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/13.webp" alt="" />
+            </div>
+          </div>
+            <div class="brand-wraper">
+            <div class="brandBx">
+              <img src="./assets/img/brand/3.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/4.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/8.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/5.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/10.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/11.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/12.webp" alt="" />
+            </div>
+            <div class="brandBx">
+              <img src="./assets/img/brand/13.webp" alt="" />
+            </div>
+          </div>
+         </div>
+        </div>
 		</div>
       </div>
     </section>
@@ -434,7 +410,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-8 w-8" data-lov-id="src/components/WhyChooseUs.tsx:9:12" data-lov-name="Star" data-component-path="src/components/WhyChooseUs.tsx" data-component-line="9" data-component-file="WhyChooseUs.tsx" data-component-name="Star" data-component-content="%7B%22className%22%3A%22h-8%20w-8%22%7D"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg> 
                 </div>
                 <h4>4.9★ Google Rating</h4>
-                <p><b>India’s  highest-rated watch and clock store</b> with 4.9 stars. Over 11,000 happy customers have reviewed us positively. We’re known for our trusted service and attention to detail. Your timepieces are always in expert hands with us.</p>
+				  <p><b>India’s  highest-rated watch and clock store</b> with 4.9 stars. Over 11,000 happy customers have reviewed us positively. We’re known for our trusted service and attention to detail. Your timepieces are always in expert hands with us.</p>
               </div>
             </div>
             <div class="col-md-6 col-lg-3">
